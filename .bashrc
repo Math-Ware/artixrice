@@ -17,4 +17,5 @@ export PATH=~/scripts/statusbar:$PATH
 export PATH=~/scripts:$PATH
 
 
-# PS1='[\u@\h \W]\$ '
+   PS1='\[\033[01;34m\] \W\[\033[01;31m\] >\[\033[00m\] '
+
