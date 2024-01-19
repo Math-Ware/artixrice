@@ -1,0 +1,7 @@
+#!/bin/sh
+
+choice=$(echo "Off\nReboot\nOut" | dmenu -i -p "choose action")
+
+[ "$choice" = "Off"     ] && sudo poweroff
+[ "$choice" = "Reboot"  ] && sudo reboot
+[ "$choice" = "Out"     ] && sudo pkill dwm

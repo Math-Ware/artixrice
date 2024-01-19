@@ -1,0 +1,19 @@
+super + s
+         surf https://duckduckgo.com/html
+
+super + Return
+	st
+
+super + w
+	 firefox-developer-edition
+	
+super + { equal, minus, BackSpace }
+	sound {up, down, toggle}
+
+super  + d
+	dmenu_run
+super + n
+	st -e noice
+
+super + o
+	out	
