@@ -1,7 +1,0 @@
-#!/bin/sh
-
-[ "$1" = "up"     ] && amixer set Master on && amixer set Master 5db+  
-[ "$1" = "down"   ] && amixer set Master on && amixer set Master 5db-
-[ "$1" = "toggle" ] && amixer set Master toggle 
-
-pkill -RTMIN+3 dwmblocks
